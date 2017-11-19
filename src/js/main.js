@@ -16,7 +16,7 @@ import '../css/style.css'
 
 // content
 var content = `
-![avatar](http://tvax2.sinaimg.cn/crop.0.0.664.664.180/005NVR7Rly8fkiq65xr5ij30ig0igjrq.jpg)
+![avatar](https://tvax2.sinaimg.cn/crop.0.0.664.664.180/005NVR7Rly8fkiq65xr5ij30ig0igjrq.jpg)
 
 欢迎来到 zilcH40 的个人主页
 ===========================
@@ -89,7 +89,7 @@ editor.on('change', editorOnChange);
 
 // malarkey typing effect
 var type_opts = {
-  typeSpeed: 20,
+  typeSpeed: 15,
   loop: false,
   getter: function(elem) {
     return editor.getValue();
