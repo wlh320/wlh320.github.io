@@ -30,3 +30,7 @@ html, body {
   padding: 45px;
   font-size: 18px;
 }
+
+.CodeMirror pre.CodeMirror-line {
+    font-family: hack, consolas, monospace;
+}

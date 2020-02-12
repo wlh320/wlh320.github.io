@@ -25,13 +25,7 @@ Hi! 这里是 **zilcH40** 的个人主页
 
 ## About Me
 
-目前是 CS Undergraduate && Newbie Developer
-
-- {C\\ ,C++\\ ,Python\\ }Programmer
-- 萌新 Gopher
-- 会一丢丢前端 (比如攒一个像这样的页面 \\_(:з」∠)\\_ )
-- Arch Linux user
-- Vim fan
+TODO
 
 ## Contact Me
 
@@ -44,7 +38,7 @@ Hi! 这里是 **zilcH40** 的个人主页
 - [网易云音乐](https://music.163.com/#/playlist?id=52197676)
 - [给我发email](mailto:zilch40.wang@gmail.com)
 
-Copyright ©2018 zilcH40
+Copyright ©2020 zilcH40
 
 [沪ICP不备 2333333号-2](http://www.miitbeian.gov.cn)
 
@@ -72,7 +66,6 @@ marked.setOptions({
   tables: true,
   breaks: true,
   pedantic: false,
-  sanitize: true,
   smartLists: true,
   smartypants: false
 });
@@ -88,13 +81,11 @@ editor.on('change', editorOnChange);
 var type_opts = {
   typeSpeed: 15,
   loop: false,
-  getter: function(elem) {
-    return editor.getValue();
-  },
-  setter: function(elem, val) {
-    return editor.setValue(val);
-  }
 };
 
-malarkey(editor, type_opts).type(content);
+function callback(text) {
+    editor.setValue(text)
+}
+
+malarkey(callback, type_opts).type(content);
 
