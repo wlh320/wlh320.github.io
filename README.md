@@ -1,14 +1,21 @@
 # wlh320.github.io
 
-wlh's one-page personal website 1.0
+wlh's one-page personal website 2.0
 
 ## build
+
+Bundle with `parcel`
 
 Just run
 
 ```
-npm install
-npm run build
+yarn
+yarn run build
 ```
 
-Then you'll get `bundle.js` in `./bin/`, and `./index.html` will work
+Then you'll get a `dist` folder
+
+## 2021 changelog
+
+1. add a pause button
+2. optimize for mobile devices

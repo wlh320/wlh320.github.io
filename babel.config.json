@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    [
+      "prismjs",
+      {
+        "languages": [
+          "html"
+        ],
+        "plugins": [],
+        "theme": "tomorrow",
+        "css": true
+      }
+    ]
+  ]
+}

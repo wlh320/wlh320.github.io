@@ -1,0 +1,55 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.column {
+  float: left;
+  height: 100%;
+  width: 50%;
+  overflow: auto;
+}
+
+.editor-wrap .CodeMirror {
+  font-size: 1.5rem;
+  height: 100%;
+}
+
+.preview-wrap .markdown-body {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 4rem;
+  font-size: 1.5rem;
+}
+
+#btncontainer {
+  position: fixed;
+  bottom: 5%;
+  text-align: center;
+  width: 100%;
+  z-index: 100;
+}
+#skipbtn {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 100%;
+  background-color:#1793d1;
+  color: white;
+  font-size: 1.5rem;
+  border: none;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  z-index: 100;
+}
+
+@media only screen and (max-width: 600px) {
+  .editor-wrap {
+    display: none;
+  }
+  .preview-wrap {
+    width: 100%;
+  }
+  .preview-wrap .markdown-body {
+    font-size: 2rem;
+  }
+}
