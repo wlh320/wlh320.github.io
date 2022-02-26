@@ -5,7 +5,7 @@
     "github-markdown-css": "^4.0.0",
     "malarkey": "^2.0.2",
     "marked": "^3.0.2",
-    "prismjs": "^1.25.0"
+    "prismjs": "^1.27.0"
   },
   "scripts": {
     "dev": "parcel src/index.html",
